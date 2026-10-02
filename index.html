@@ -1,0 +1,1081 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>ريناد دويدي للتصميم الداخلي — المدينة المنورة</title>
+<!-- ✏️ وصف الموقع في قوقل ومعاينة الرابط في واتساب — عدّل النص، وضع رابط صورة كامل بعد رفع الموقع -->
+<meta name="description" content="ريناد دويدي للتصميم الداخلي في المدينة المنورة: تصميم وتنفيذ واستشارة للمساحات السكنية والتجارية والمكتبية.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="ريناد دويدي للتصميم الداخلي">
+<meta property="og:description" content="تصميم وتنفيذ واستشارة — المدينة المنورة">
+<meta property="og:image" content="https://USERNAME.github.io/REPO/images/share.jpg">
+<meta name="theme-color" content="#F7F5F1">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cpath d='M6 30V14a10 10 0 0 1 20 0v16Z' fill='%231E3A36'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alexandria:wght@200;300;500;700&family=Almarai:wght@300;400;700&display=swap" rel="stylesheet">
+
+<script>
+/* ═══════════════════════════════════════════════════════════════
+   ✏️  بيانات الموقع — عدّل هنا فقط، والتصميم يتحدث تلقائياً
+   • الصور داخل مجلد images بنفس الأسماء المكتوبة هنا
+   • الصورة الناقصة يظهر مكانها مربع يوضح المسار المطلوب
+   ═══════════════════════════════════════════════════════════════ */
+const SITE = {
+  name: "ريناد دويدي",
+  tagline: "للتصميم الداخلي",
+  logo: "",                             // اختياري — مثال: "images/logo.png"
+  city: "المدينة المنورة",
+  address: "المدينة المنورة",
+  whatsapp: "966500000000",             // دولي بدون + ولا مسافات
+  whatsappDisplay: "+966 50 000 0000",
+  email: "",                            // اختياري
+  instagram: "",                        // اختياري — بدون @
+  hours: "الأحد – الخميس، ٩ص – ٦م",
+  cr: "",                               // اختياري — السجل التجاري
+
+  heroLine: "تصميم داخلي من المدينة المنورة",
+
+  about: {
+    statement: "نؤمن أن المساحة الجميلة تبدأ من فهم من يعيش فيها. نصغي أولاً، ثم نترجم طريقة يومك إلى ضوء وخامة ولون، حتى يصبح المكان امتداداً لك.",
+    photo: "images/about/renad.jpg",
+    text: "مصممة داخلية من المدينة المنورة، بخبرة تمتد لأكثر من أربع سنوات في المساحات السكنية والتجارية والمكتبية. أرافق العميل من أول زيارة حتى تسليم المفتاح.",
+    facts: [["الخبرة","+٤ سنوات"],["التخصص","سكني، تجاري، مكتبي"],["اللغات","العربية والإنجليزية"]]
+  },
+
+  services: [
+    ["التصميم الداخلي", "مفهوم كامل للمساحة: توزيع، خامات، ألوان، وإضاءة، يعكس هوية صاحبها."],
+    ["المناظير ثلاثية الأبعاد", "تشوف مساحتك قبل ما تُنفَّذ، بزوايا واقعية تساعدك تقرر بثقة."],
+    ["المخططات التنفيذية", "أسقف، إنارة، أرضيات، ونجارة — مخططات دقيقة يشتغل عليها أي مقاول."],
+    ["اختيار الأثاث والخامات", "ننتقي القطع والخامات من السوق المحلي والإقليمي بما يناسب ميزانيتك."],
+    ["التنفيذ والإشراف", "متابعة في الموقع حتى يطابق التنفيذ التصميم، وحلول فورية لأي عائق."],
+    ["الاستشارة", "زيارة أو جلسة عن بُعد تطلع منها بتوصيات واضحة لقرارك القادم."]
+  ],
+
+  /* ── المشاريع ─────────────────────────────────────────────
+     folder : اسم المجلد داخل images/projects/
+     featured: true  ← يظهر في العرض الرئيسي أعلى الصفحة
+     before/after : اختياري — لنفس الزاوية                         */
+  projects: [
+    { title:"معيشة وطعام بمساحة مفتوحة", type:"سكني", area:"", city:"المدينة المنورة",
+      folder:"project-01", cover:"cover.jpg", photos:[], featured:true,
+      text:"اكتب هنا وصف المشروع: ماذا طلب العميل، وما الحل الذي قدّمناه." },
+    { title:"صالة بجلسة دائرية", type:"سكني", area:"", city:"المدينة المنورة",
+      folder:"project-02", cover:"cover.jpg", photos:[], featured:true,
+      text:"اكتب هنا وصف المشروع." },
+    { title:"غرفة نوم رئيسية", type:"سكني", area:"", city:"المدينة المنورة",
+      folder:"project-03", cover:"cover.jpg", photos:[],
+      text:"اكتب هنا وصف المشروع." }
+  ],
+
+  /* ── جهات عملنا معها — اختياري (احذف الأسطر لإخفاء القسم)
+     إذا ما وُجد الشعار يظهر الاسم مكتوباً */
+  clients: [
+    // مثال: { name:"اسم الجهة", logo:"images/clients/client-1.png" },
+  ],
+
+
+  /* ── مجموعة القطع (متجر القطع الفاخرة) ───────────────────────
+     كل قطعة لها مجلد داخل images/collection/
+     price: رقم بالريال، أو اتركه "" ليظهر «السعر حسب الطلب»
+     options: خيارات يختارها العميل (مقاس، تشطيب، لون...) — اختياري
+     enabled: false لإخفاء القسم كاملاً                                   */
+  collection: {
+    enabled: true,
+    title: "قطع بتوقيع ريناد",
+    intro: "قطع أثاث وديكور من تصميمي، تُصنع يدوياً حسب الطلب بالخامات والمقاسات اللي تختارها.",
+    pieces: [
+      { id:"piece-01", name:"سرير بإضاءة مخفية", category:"غرف النوم", price:"",
+        cover:"cover.jpg", photos:[], leadTime:"",
+        materials:"قماش بوكليه، خشب جوز", dimensions:"",
+        text:"اكتب هنا وصف القطعة.",
+        options:[ {label:"المقاس", values:["كوين","كينج"]} ] },
+      { id:"piece-02", name:"كرسي منفرد بإطار خشبي", category:"جلسات", price:"",
+        cover:"cover.jpg", photos:[], leadTime:"",
+        materials:"قماش بوكليه، خشب جوز", dimensions:"",
+        text:"اكتب هنا وصف القطعة.",
+        options:[] }
+    ]
+  },
+  /* ── حاسبة التكلفة — ⚠️ الأرقام مؤقتة، عدّلها حسب أسعاركم
+     unit: "m2" بالمتر المربع | "flat" مبلغ ثابت
+     enabled: false لإخفاء الحاسبة كاملة */
+  estimator: {
+    enabled: false,              // ⚠️ فعّلها (true) بعد ما تحط أسعاركم الحقيقية تحت
+    services: [
+      { name:"تصميم",        unit:"m2",   min:90,   max:160 },
+      { name:"تصميم وتنفيذ", unit:"m2",   min:1100, max:2200 },
+      { name:"استشارة",      unit:"flat", min:600,  max:1200 }
+    ],
+    levels: [ ["أساسي",1], ["متوسط",1.3], ["فاخر",1.75] ]
+  },
+
+  steps: [
+    ["زيارة الموقع","نقيس ونسمع: من يعيش هنا، وكيف."],
+    ["المفهوم","لوحة إلهام وخامات وتوزيع مبدئي."],
+    ["التصميم","مناظير 3D ومخططات تنفيذية كاملة."],
+    ["العقد","عرض سعر مفصّل ومدة مكتوبة."],
+    ["التنفيذ","إشراف وتحديثات مصوّرة على جوالك."],
+    ["التسليم","جولة استلام، ثم المفتاح."]
+  ],
+
+  testimonial: null,                   // مثال: { quote:"رأي العميل", by:"اسم العميل — المشروع" },
+
+  faq: [
+    ["كيف تُحسب تكلفة التصميم؟","حسب المساحة ونطاق العمل. بعد زيارة الموقع نرسل عرض سعر مكتوب بما يشمله وما لا يشمله."],
+    ["كم يستغرق المشروع؟","يعتمد على الحجم والنطاق، والمدة تُكتب في العقد ونلتزم بها."],
+    ["أقدر أطلب التصميم فقط؟","أكيد. نسلّمك مخططات ومواصفات كاملة، ونضيف زيارات إشراف إذا احتجت."],
+    ["تشتغلون خارج المدينة؟","التصميم والاستشارة متاحة عن بُعد لكل مدن المملكة."]
+  ]
+};
+</script>
+
+<style>
+:root{
+  --bg:#F7F5F1; --surface:#EEEAE3; --surface2:#E4DED3; --white:#FFFFFF;
+  --ink:#1E3A36; --soft:#5F706C; --gold:#B08D52; --rose:#C99A8D; --line:rgba(30,58,54,.14);
+  --display:"Alexandria","Almarai",Tahoma,sans-serif;
+  --body:"Almarai",Tahoma,"Segoe UI",sans-serif;
+  --ease:cubic-bezier(.7,0,.2,1);
+  --arch:inset(42% 33% 0% 33% round 50vw 50vw 0px 0px);
+  --full:inset(0% 0% 0% 0% round 0vw 0vw 0px 0px);
+  color-scheme:light; box-sizing:border-box;
+  padding-top:env(safe-area-inset-top,0px); padding-bottom:env(safe-area-inset-bottom,0px);
+}
+@media (max-width:700px){:root{--arch:inset(48% 18% 0% 18% round 50vw 50vw 0px 0px)}}
+*,*::before,*::after{box-sizing:inherit}
+html{scroll-behavior:smooth;scroll-padding-top:calc(env(safe-area-inset-top,0px) + 76px)}
+html,body{height:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--body);font-size:1.0625rem;line-height:1.9;-webkit-font-smoothing:antialiased}
+body.lock{overflow:hidden}
+a{color:inherit}
+img{display:block;max-width:100%}
+button{font:inherit;color:inherit}
+:focus-visible{outline:2px solid var(--gold);outline-offset:3px}
+.wrap{max-width:1320px;margin:0 auto;padding:0 clamp(20px,4vw,56px)}
+.btn{display:inline-flex;align-items:center;gap:10px;font:700 .95rem var(--body);padding:15px 28px;border-radius:100px;border:0;background:var(--ink);color:var(--white);text-decoration:none;cursor:pointer;transition:background .25s}
+.btn:hover{background:var(--gold)}
+.btn.light{background:var(--white);color:var(--ink)}
+.btn.light:hover{background:var(--gold);color:var(--white)}
+h2{font:300 clamp(2.2rem,5vw,4rem)/1.25 var(--display);margin:0 0 20px}
+.lede{color:var(--soft);max-width:34em;margin:0}
+section{padding:clamp(80px,11vw,150px) 0}
+
+/* placeholders */
+.ph{position:relative;width:100%;height:100%;min-height:140px;background:var(--t,#E4DED3);display:flex;align-items:flex-end;justify-content:center;overflow:hidden}
+.ph.dark{background:var(--t,#2E423F)}
+.ph svg{position:absolute;inset:0;width:100%;height:100%}
+.ph code{position:relative;direction:ltr;font:12px/1.4 ui-monospace,Menlo,monospace;background:rgba(255,255,255,.92);color:var(--ink);padding:6px 10px;border-radius:8px;margin:14px;word-break:break-all;z-index:1}
+
+/* header */
+.hdr{position:fixed;top:env(safe-area-inset-top,0px);inset-inline:0;z-index:40;color:var(--white);transition:background .45s,color .45s,padding .45s,box-shadow .45s;padding:22px 0}
+.hdr.solid{background:rgba(247,245,241,.92);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);color:var(--ink);padding:12px 0;box-shadow:0 1px 0 var(--line)}
+.hdr.menu{color:var(--ink);background:transparent;box-shadow:none}
+.hdr.hide{transform:translateY(-110%)}
+.hbar{display:flex;align-items:center;justify-content:space-between;gap:16px}
+.logo{display:flex;align-items:center;gap:10px;text-decoration:none}
+.logo img{height:46px;width:auto;transition:filter .45s,height .45s}
+.hdr:not(.solid):not(.menu) .logo img{filter:brightness(0) invert(1)}
+.hdr.solid .logo img{height:38px}
+.logo b{font:700 1.35rem var(--display)}
+.logo small{font-size:.8rem;opacity:.75}
+.hright{display:flex;align-items:center;gap:10px}
+.mbtn{all:unset;cursor:pointer;display:flex;align-items:center;gap:12px;padding:10px 6px;font-weight:700;font-size:.95rem}
+.mbtn i{position:relative;width:26px;height:10px;display:block}
+.mbtn i::before,.mbtn i::after{content:"";position:absolute;right:0;height:1.5px;background:currentColor;transition:transform .5s var(--ease),width .5s var(--ease),top .5s var(--ease)}
+.mbtn i::before{top:0;width:26px}.mbtn i::after{top:9px;width:16px}
+.hdr.menu .mbtn i::before{top:4px;transform:rotate(45deg)}
+.hdr.menu .mbtn i::after{top:4px;width:26px;transform:rotate(-45deg)}
+.mbtn:focus-visible{outline:2px solid var(--gold);border-radius:6px}
+.hdr .btn{padding:11px 22px;font-size:.88rem}
+.hdr:not(.solid):not(.menu) .btn{background:var(--white);color:var(--ink)}
+@media (max-width:600px){.hdr .btn{display:none}}
+
+/* fullscreen menu */
+.menu{position:fixed;inset:0;z-index:35;background:var(--bg);clip-path:inset(0 0 100% 0);transition:clip-path .9s var(--ease);visibility:hidden;overflow:auto}
+.menu.open{clip-path:inset(0 0 0% 0);visibility:visible}
+.menu-in{min-height:100%;display:grid;grid-template-columns:1.4fr 1fr;gap:40px;align-items:end;padding-top:130px;padding-bottom:56px}
+.menu ol{list-style:none;margin:0;padding:0;counter-reset:m}
+.menu li{overflow:hidden}
+.menu ol a{display:inline-block;text-decoration:none;font:200 clamp(2.4rem,6.4vw,5.4rem)/1.18 var(--display);transform:translateY(105%);transition:transform .8s var(--ease),color .3s}
+.menu.open ol a{transform:none}
+.menu ol a:hover{color:var(--gold)}
+.menu-aside{color:var(--soft);font-size:.95rem;opacity:0;transition:opacity .6s .5s}
+.menu.open .menu-aside{opacity:1}
+.menu-aside b{display:block;color:var(--ink);font-weight:700;margin-top:18px}
+@media (max-width:800px){.menu-in{grid-template-columns:1fr;align-items:start}}
+
+/* hero */
+.hero{position:relative;height:100vh;height:100svh;min-height:560px;overflow:hidden;background:#2E423F;color:var(--white);touch-action:pan-y}
+.slides,.slide{position:absolute;inset:0}
+.slide{visibility:hidden;clip-path:var(--full)}
+.slide.on{visibility:visible;z-index:1}
+.slide.enter{visibility:visible;z-index:2;clip-path:var(--arch)}
+.slide.enter.go{clip-path:var(--full);transition:clip-path 1.5s var(--ease)}
+.slide img,.slide .ph{width:100%;height:100%;object-fit:cover;transform:scale(1.12);transition:transform 9s cubic-bezier(.2,.6,.3,1)}
+.slide.on img,.slide.on .ph,.slide.enter img,.slide.enter .ph{transform:scale(1)}
+.slide .ph{align-items:flex-start;padding-top:96px}
+.shade{position:absolute;inset:0;z-index:3;pointer-events:none;background:linear-gradient(180deg,rgba(14,28,26,.45) 0%,rgba(14,28,26,0) 28%,rgba(14,28,26,0) 45%,rgba(14,28,26,.72) 100%)}
+.hui{position:absolute;inset:0;z-index:4;display:flex;flex-direction:column;justify-content:flex-end;padding-bottom:clamp(28px,5vh,52px)}
+.kicker{font-size:.95rem;opacity:.85;margin:0 0 10px}
+.hui > .wrap{width:100%}
+.caps{display:grid}
+.cap{grid-area:1/1;align-self:end}
+.cap .ln{display:block;overflow:hidden}
+.cap .ln > *{display:inline-block;transform:translateY(110%);transition:transform 1s var(--ease)}
+.cap.on .ln > *{transform:none;transition-delay:.55s}
+.cap.on .ln:nth-child(2) > *{transition-delay:.68s}
+.cap.on .ln:nth-child(3) > *{transition-delay:.8s}
+.cap h1,.cap .h1{font:300 clamp(2.4rem,6.6vw,6rem)/1.15 var(--display);margin:0}
+.cap .meta{font-size:1rem;opacity:.85;padding:6px 0 18px}
+.cap a.view{color:var(--white);text-decoration:none;font-weight:700;border-bottom:1px solid rgba(255,255,255,.5);padding-bottom:3px}
+.cap a.view:hover{border-color:var(--white)}
+.cap:not(.on){pointer-events:none}
+.hbot{display:flex;align-items:center;gap:24px;margin-top:clamp(22px,4vh,40px)}
+.bars{flex:1;display:flex;gap:8px}
+.bars button{all:unset;cursor:pointer;flex:1;height:22px;display:flex;align-items:center}
+.bars button span{display:block;width:100%;height:2px;background:rgba(255,255,255,.3);overflow:hidden}
+.bars button i{display:block;height:100%;width:100%;background:var(--white);transform:scaleX(0);transform-origin:right}
+.bars button.done i{transform:scaleX(1)}
+.bars button.act i{animation:fill var(--dur,7s) linear forwards}
+.hero:hover .bars button.act i,.hero.paused .bars button.act i{animation-play-state:paused}
+@keyframes fill{to{transform:scaleX(1)}}
+.bars button:focus-visible{outline:2px solid var(--white);outline-offset:2px}
+.count{font:300 1rem var(--display);white-space:nowrap;opacity:.9}
+.harr{display:flex;gap:8px}
+.harr button{all:unset;cursor:pointer;width:48px;height:48px;border-radius:50%;border:1px solid rgba(255,255,255,.45);display:grid;place-items:center;font-size:1.1rem;transition:background .3s,color .3s}
+.harr button:hover{background:var(--white);color:var(--ink)}
+.harr button:focus-visible{outline:2px solid var(--white);outline-offset:2px}
+@media (max-width:600px){.harr{display:none}}
+
+/* statement */
+.stmt{font:300 clamp(1.7rem,3.8vw,3.3rem)/1.6 var(--display);margin:0 0 clamp(64px,9vw,120px);max-width:22em}
+.stmt span{opacity:.14;transition:opacity .35s}
+.stmt span.lit{opacity:1}
+.about{display:grid;grid-template-columns:.85fr 1.15fr;gap:clamp(32px,6vw,100px);align-items:end}
+.about .photo{aspect-ratio:4/5;border-radius:50vw 50vw 0 0;overflow:hidden}
+.about .photo img{width:100%;height:100%;object-fit:cover}
+.about dl{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin:40px 0 0}
+.about dl div{border-top:1px solid var(--ink);padding-top:14px}
+.about dt{font-size:.85rem;color:var(--soft)}
+.about dd{margin:4px 0 0;font:500 1.1rem var(--display)}
+@media (max-width:860px){.about{grid-template-columns:1fr}.about .photo{max-width:360px}.about dl{grid-template-columns:1fr}}
+
+/* services */
+.services{background:var(--surface)}
+.svc-list{list-style:none;margin:48px 0 0;padding:0;border-top:1px solid var(--line)}
+.svc-list li{display:grid;grid-template-columns:1fr 1.2fr;gap:24px;align-items:baseline;padding:26px 0;border-bottom:1px solid var(--line)}
+.svc-list h3{font:300 clamp(1.5rem,3vw,2.4rem)/1.3 var(--display);margin:0;transition:transform .5s var(--ease),color .3s}
+.svc-list li:hover h3{transform:translateX(-14px);color:var(--gold)}
+.svc-list p{margin:0;color:var(--soft)}
+@media (max-width:760px){.svc-list li{grid-template-columns:1fr;gap:6px}}
+
+/* projects — horizontal walk */
+.work{padding:0}
+.work-sticky{position:sticky;top:0;height:100vh;height:100svh;overflow:hidden;display:flex;flex-direction:column;justify-content:center;gap:clamp(20px,4vh,40px)}
+.work-sticky > .wrap{width:100%}
+.work-head{display:flex;justify-content:space-between;align-items:end;gap:20px;flex-wrap:wrap}
+.work-head h2{margin:0}
+.wprog{width:180px;height:2px;background:var(--line)}
+.wprog i{display:block;height:100%;background:var(--ink);transform:scaleX(0);transform-origin:right}
+.track{display:flex;gap:clamp(18px,2.4vw,36px);width:max-content;padding:0 clamp(20px,4vw,56px);will-change:transform;align-items:flex-start}
+.card{all:unset;cursor:pointer;display:block;width:clamp(260px,30vw,460px)}
+.card.w{width:clamp(300px,42vw,640px)}
+.card .art{height:clamp(300px,56vh,600px);overflow:hidden;border-radius:4px}
+.card.a .art{border-radius:50vw 50vw 4px 4px}
+.card .art img,.card .art .ph{width:100%;height:100%;object-fit:cover;transition:transform 1.2s var(--ease)}
+.card:hover .art img,.card:hover .art .ph{transform:scale(1.05)}
+.card .cap2{display:flex;justify-content:space-between;gap:12px;padding-top:14px;align-items:baseline}
+.card strong{font:500 1.2rem var(--display)}
+.card span{color:var(--soft);font-size:.9rem}
+.card:focus-visible{outline:2px solid var(--gold);outline-offset:6px}
+.endcard{width:clamp(260px,26vw,380px);height:clamp(300px,56vh,600px);display:flex;flex-direction:column;justify-content:center;gap:20px;padding:32px;background:var(--surface);border-radius:4px}
+.endcard p{font:300 1.6rem/1.5 var(--display);margin:0}
+.work.static{padding:clamp(80px,11vw,150px) 0}
+.work.static .work-sticky{position:static;height:auto;overflow:visible}
+.work.static .track{width:auto;overflow-x:auto;scroll-snap-type:x mandatory;padding-bottom:12px;scrollbar-width:none}
+.work.static .track::-webkit-scrollbar{display:none}
+.work.static .card,.work.static .endcard{flex:none;scroll-snap-align:start}
+.work.static .card .art,.work.static .endcard{height:clamp(320px,62vw,520px)}
+.work.static .wprog{display:none}
+
+/* cursor */
+.cursor{position:fixed;top:0;left:0;z-index:50;width:96px;height:96px;margin:-48px 0 0 -48px;border-radius:50%;background:var(--ink);color:var(--white);display:grid;place-items:center;font-weight:700;font-size:.9rem;pointer-events:none;transform:scale(0);transition:transform .35s var(--ease)}
+.cursor.on{transform:scale(1)}
+@media (pointer:coarse){.cursor{display:none}}
+
+/* process */
+.proc{position:relative;list-style:none;margin:56px 0 0;padding:0;display:grid;grid-template-columns:repeat(6,1fr);gap:20px}
+.proc::before,.proc::after{content:"";position:absolute;top:7px;right:0;left:0;height:1px;background:var(--line)}
+.proc::after{background:var(--ink);transform:scaleX(var(--f,0));transform-origin:right}
+.proc li{position:relative;padding-top:36px;transition:opacity .5s;opacity:.4}
+.proc li.on{opacity:1}
+.proc li::before{content:"";position:absolute;top:0;right:0;width:15px;height:15px;border-radius:50%;background:var(--bg);border:1px solid var(--ink);z-index:1;transition:background .4s}
+.proc li.on::before{background:var(--ink)}
+.proc h3{font:500 1.15rem var(--display);margin:0 0 6px}
+.proc p{margin:0;font-size:.93rem;color:var(--soft);line-height:1.75}
+@media (max-width:900px){
+  .proc{grid-template-columns:1fr;gap:0}
+  .proc::before,.proc::after{top:0;bottom:0;right:7px;left:auto;width:1px;height:auto}
+  .proc::after{transform:scaleY(var(--f,0));transform-origin:top}
+  .proc li{padding:0 40px 30px 0}
+  .proc li::before{top:6px}
+}
+
+/* estimator */
+.est{background:var(--ink);color:var(--white);border-radius:clamp(24px,3vw,40px);margin:0 clamp(12px,2vw,24px);padding:clamp(56px,8vw,110px) 0}
+.est .lede{color:rgba(255,255,255,.7)}
+.est-grid{display:grid;grid-template-columns:1.1fr 1fr;gap:clamp(36px,6vw,90px);align-items:center;margin-top:40px}
+.field{margin-bottom:30px}
+.field > label,.field > .lbl{display:block;font-size:.88rem;color:rgba(255,255,255,.65);margin-bottom:12px}
+.seg{display:flex;flex-wrap:wrap;gap:8px}
+.seg label{margin:0}
+.seg input{position:absolute;opacity:0;width:1px}
+.seg span{display:inline-block;padding:10px 20px;border-radius:100px;border:1px solid rgba(255,255,255,.3);cursor:pointer;transition:background .25s,color .25s}
+.seg input:checked+span{background:var(--white);color:var(--ink);border-color:var(--white)}
+.seg input:focus-visible+span{outline:2px solid var(--gold);outline-offset:2px}
+.range{display:flex;align-items:center;gap:18px}
+.range input{flex:1;accent-color:var(--gold)}
+.range output{font:300 1.6rem var(--display);min-width:5.5em;text-align:left}
+.result{border-top:1px solid rgba(255,255,255,.2);padding-top:28px}
+.result small{color:rgba(255,255,255,.65);font-size:.9rem}
+.result .num .cur{font:300 1.1rem var(--body);color:rgba(255,255,255,.7)}
+.result .num{font:200 clamp(2rem,4.2vw,3.6rem)/1.3 var(--display);margin:6px 0 4px;font-variant-numeric:tabular-nums}
+.result p{color:rgba(255,255,255,.6);font-size:.9rem;margin:0 0 26px}
+.hidden{display:none !important}
+@media (max-width:860px){.est-grid{grid-template-columns:1fr}}
+
+/* clients marquee */
+.clients{padding:clamp(64px,8vw,110px) 0;overflow:hidden}
+.clients h2{font-size:clamp(1.6rem,3vw,2.4rem);text-align:center}
+.marq{display:flex;width:max-content;gap:clamp(48px,7vw,110px);align-items:center;margin-top:40px;animation:marq 40s linear infinite}
+.clients:hover .marq{animation-play-state:paused}
+@keyframes marq{to{transform:translateX(50%)}}
+.marq img{height:56px;width:auto;opacity:.7;filter:grayscale(1);transition:opacity .3s,filter .3s}
+.marq img:hover{opacity:1;filter:none}
+.marq b{font:300 1.5rem var(--display);color:var(--soft);white-space:nowrap}
+
+/* quote + faq */
+.quote{text-align:center}
+.quote blockquote{margin:0 auto;max-width:20em;font:300 clamp(1.7rem,3.6vw,3rem)/1.55 var(--display)}
+.quote cite{display:block;margin-top:24px;color:var(--soft);font-style:normal}
+.faqs{border-top:1px solid var(--line);margin-top:40px;max-width:900px}
+.faqs details{border-bottom:1px solid var(--line);padding:22px 0}
+.faqs summary{cursor:pointer;list-style:none;font:500 1.2rem var(--display);display:flex;justify-content:space-between;gap:12px}
+.faqs summary::-webkit-details-marker{display:none}
+.faqs summary::after{content:"+";font-weight:200;font-size:1.6rem;line-height:1;transition:transform .4s var(--ease)}
+.faqs details[open] summary::after{transform:rotate(45deg)}
+.faqs p{margin:12px 0 0;color:var(--soft);max-width:44em}
+
+/* contact */
+.contact{background:var(--surface)}
+.cgrid{display:grid;grid-template-columns:1fr 1.25fr;gap:clamp(36px,6vw,90px)}
+.cinfo{margin:36px 0 0;display:grid;gap:16px}
+.cinfo dt{font-size:.85rem;color:var(--gold)}
+.cinfo dd{margin:0}
+form{display:grid;grid-template-columns:1fr 1fr;gap:22px}
+.full{grid-column:1/-1}
+form label{display:block;font-size:.88rem;color:var(--soft);margin-bottom:8px}
+input:not([type=radio]):not([type=range]),select,textarea{width:100%;font:inherit;color:var(--ink);background:var(--white);border:1px solid var(--line);border-radius:14px;padding:13px 16px}
+input::placeholder,textarea::placeholder{color:#9AA5A2}
+input:focus,select:focus,textarea:focus{outline:none;border-color:var(--gold)}
+textarea{min-height:96px;resize:vertical}
+.chips{display:flex;flex-wrap:wrap;gap:10px}
+.chips label{margin:0;color:inherit}
+.chips input{position:absolute;opacity:0;width:1px}
+.chips span{display:inline-block;padding:10px 20px;border-radius:100px;border:1px solid var(--line);background:var(--white);cursor:pointer}
+.chips input:checked+span{background:var(--ink);color:var(--white);border-color:var(--ink)}
+.chips input:focus-visible+span{outline:2px solid var(--gold);outline-offset:2px}
+.err{color:#B4442E;margin:0;min-height:1.4em;font-size:.9rem}
+@media (max-width:860px){.cgrid{grid-template-columns:1fr}form{grid-template-columns:1fr}}
+
+footer{padding:clamp(56px,8vw,96px) 0 32px;overflow:hidden}
+.bigname{font:200 clamp(3.4rem,13vw,12rem)/1 var(--display);margin:0 0 36px;white-space:nowrap;color:var(--ink)}
+.fbar{display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px;color:var(--soft);font-size:.88rem;border-top:1px solid var(--line);padding-top:22px}
+
+/* project view */
+.pv{position:fixed;inset:0;z-index:60;background:var(--bg);overflow:auto;overscroll-behavior:contain;clip-path:var(--full)}
+.pv[hidden]{display:block;visibility:hidden;pointer-events:none}
+.pv.enter{clip-path:var(--arch)}
+.pv.enter.go{clip-path:var(--full);transition:clip-path 1.2s var(--ease)}
+.pv.leave{opacity:0;transition:opacity .45s}
+.pv-close{all:unset;box-sizing:border-box;position:fixed;z-index:5;top:calc(env(safe-area-inset-top,0px) + 18px);left:clamp(16px,3vw,40px);cursor:pointer;background:var(--white);color:var(--ink);padding:12px 22px;border-radius:100px;font-weight:700;box-shadow:0 6px 24px rgba(0,0,0,.12)}
+.pv-close:focus-visible{outline:2px solid var(--gold);outline-offset:3px}
+.pv-cover{height:82vh;height:82svh;position:relative;overflow:hidden;background:#2E423F}
+.pv-cover img,.pv-cover .ph{width:100%;height:100%;object-fit:cover}
+.pv-cover .shade{z-index:1}
+.pv-title{position:absolute;inset:auto 0 0 0;z-index:2;color:var(--white);padding-bottom:40px}
+.pv-title h1{font:300 clamp(2.2rem,6vw,5.4rem)/1.15 var(--display);margin:0}
+.pv-body{padding-top:56px;padding-bottom:80px}
+.pv-meta{display:flex;flex-wrap:wrap;gap:12px 48px;border-bottom:1px solid var(--line);padding-bottom:28px;margin-bottom:32px}
+.pv-meta dt{font-size:.85rem;color:var(--soft)}
+.pv-meta dd{margin:0;font:500 1.1rem var(--display)}
+.pv-text{font:300 clamp(1.25rem,2vw,1.6rem)/1.8 var(--display);max-width:32em;margin:0 0 48px}
+.ba{position:relative;overflow:hidden;aspect-ratio:16/9;margin-bottom:24px;user-select:none;border-radius:4px}
+.ba > div{position:absolute;inset:0}
+.ba img,.ba .ph{width:100%;height:100%;object-fit:cover}
+.ba .after{clip-path:inset(0 0 0 var(--p,50%))}
+.ba input{position:absolute;inset:0;width:100%;height:100%;opacity:0;cursor:ew-resize;margin:0}
+.ba .handle{position:absolute;top:0;bottom:0;left:var(--p,50%);width:2px;background:var(--white);pointer-events:none}
+.ba .handle::after{content:"⇆";position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:52px;height:52px;border-radius:50%;background:var(--white);color:var(--ink);display:grid;place-items:center;box-shadow:0 4px 18px rgba(0,0,0,.18)}
+.ba .tg{position:absolute;top:14px;padding:4px 14px;border-radius:100px;background:rgba(255,255,255,.92);font-size:.85rem;pointer-events:none}
+.ba .tl{left:14px}.ba .tr{right:14px}
+.gal{columns:2;column-gap:20px}
+.gal > *{break-inside:avoid;margin-bottom:20px;border-radius:4px;overflow:hidden}
+.gal .ph{aspect-ratio:4/3;height:auto}
+@media (max-width:640px){.gal{columns:1}}
+.pv-next{all:unset;cursor:pointer;display:block;margin-top:72px;border-top:1px solid var(--line);padding-top:28px;width:100%}
+.pv-next small{color:var(--soft)}
+.pv-next b{display:block;font:300 clamp(2rem,5vw,4rem)/1.3 var(--display);transition:color .3s}
+.pv-next:hover b{color:var(--gold)}
+.pv-next:focus-visible{outline:2px solid var(--gold);outline-offset:6px}
+
+
+/* collection */
+.coll-top{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:end;gap:24px}
+.cfil{display:flex;flex-wrap:wrap;gap:8px}
+.cfil button{all:unset;cursor:pointer;padding:8px 18px;border-radius:100px;border:1px solid var(--line);font-weight:700;font-size:.9rem}
+.cfil button[aria-pressed="true"]{background:var(--ink);color:var(--white);border-color:var(--ink)}
+.cfil button:focus-visible{outline:2px solid var(--gold);outline-offset:2px}
+.pgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:40px 24px;margin-top:48px}
+.piece{all:unset;cursor:pointer;display:block}
+.piece[hidden]{display:none}
+.piece .pimg{position:relative;aspect-ratio:4/5;overflow:hidden;background:var(--surface);border-radius:4px}
+.piece .pimg > :not(.badge){position:absolute;inset:0;width:100%;height:100%;object-fit:cover;transition:opacity .6s,transform 1.2s var(--ease)}
+.piece .pimg > .alt{opacity:0}
+.piece .pimg > .alt > *{width:100%;height:100%;object-fit:cover}
+.piece:hover .pimg > .alt{opacity:1}
+.piece:hover .pimg > :not(.badge){transform:scale(1.04)}
+.piece .badge{position:absolute;top:14px;right:14px;z-index:2;background:rgba(255,255,255,.92);padding:4px 12px;border-radius:100px;font-size:.78rem}
+.piece .pinfo{display:flex;justify-content:space-between;gap:12px;padding-top:14px;align-items:baseline}
+.piece strong{font:500 1.1rem var(--display)}
+.piece span.pr{color:var(--soft);font-size:.92rem;white-space:nowrap}
+.piece:focus-visible{outline:2px solid var(--gold);outline-offset:6px}
+
+.cv{position:fixed;inset:0;z-index:60;background:var(--bg);overflow:auto;overscroll-behavior:contain;clip-path:var(--full)}
+.cv[hidden]{display:block;visibility:hidden;pointer-events:none}
+.cv.enter{clip-path:var(--arch)}
+.cv.enter.go{clip-path:var(--full);transition:clip-path 1.2s var(--ease)}
+.cv.leave{opacity:0;transition:opacity .45s}
+.cv-grid{display:grid;grid-template-columns:1.25fr 1fr;gap:clamp(28px,5vw,80px);padding-top:90px;padding-bottom:80px;align-items:start}
+.cv-gal{display:grid;gap:14px}
+.cv-gal > *{border-radius:4px;overflow:hidden;background:var(--surface)}
+.cv-gal .ph{aspect-ratio:4/5;height:auto}
+.cv-gal img{width:100%}
+.cv-info{position:sticky;top:90px}
+.cv-cat{color:var(--gold);font-size:.9rem}
+.cv-info h1{font:300 clamp(2rem,4vw,3.2rem)/1.25 var(--display);margin:6px 0 10px}
+.cv-price{font:500 1.4rem var(--display);margin:0 0 20px}
+.cv-text{color:var(--soft);margin:0 0 28px}
+.opt{margin-bottom:22px}
+.opt .lbl{display:block;font-size:.88rem;color:var(--soft);margin-bottom:10px}
+.opt .chips span{padding:9px 18px}
+.qty{display:inline-flex;align-items:center;border:1px solid var(--line);border-radius:100px;background:var(--white)}
+.qty button{all:unset;cursor:pointer;width:44px;height:44px;display:grid;place-items:center;font-size:1.2rem}
+.qty button:focus-visible{outline:2px solid var(--gold);border-radius:50%}
+.qty output{min-width:2.4em;text-align:center;font-weight:700}
+.cv-actions{display:flex;flex-wrap:wrap;gap:10px;margin:28px 0}
+.btn.outline{background:transparent;color:var(--ink);box-shadow:inset 0 0 0 1px var(--ink)}
+.btn.outline:hover{background:var(--ink);color:var(--white)}
+.cv-specs{border-top:1px solid var(--line);margin:0}
+.cv-specs div{display:flex;justify-content:space-between;gap:16px;padding:14px 0;border-bottom:1px solid var(--line);font-size:.95rem}
+.cv-specs dt{color:var(--soft)}
+.cv-specs dd{margin:0;text-align:left}
+.cv-note{font-size:.88rem;color:var(--soft);margin-top:18px}
+.added{font-size:.9rem;color:var(--gold);min-height:1.5em;margin:-14px 0 0}
+@media (max-width:860px){.cv-grid{grid-template-columns:1fr;padding-top:76px}.cv-info{position:static}}
+
+.bagbtn{all:unset;cursor:pointer;position:fixed;z-index:45;bottom:calc(env(safe-area-inset-bottom,0px) + 20px);left:20px;background:var(--ink);color:var(--white);padding:14px 22px;border-radius:100px;font-weight:700;box-shadow:0 10px 30px rgba(30,58,54,.3);transform:translateY(160%);transition:transform .6s var(--ease)}
+.bagbtn.show{transform:none}
+.bagbtn b{display:inline-grid;place-items:center;min-width:24px;height:24px;border-radius:12px;background:var(--gold);margin-right:8px;font-size:.85rem}
+.bagbtn:focus-visible{outline:2px solid var(--gold);outline-offset:3px}
+.drawer{position:fixed;z-index:70;top:0;bottom:0;left:0;width:min(460px,100%);background:var(--bg);box-shadow:0 0 60px rgba(0,0,0,.18);transform:translateX(-102%);visibility:hidden;transition:transform .7s var(--ease),visibility 0s .7s;display:flex;flex-direction:column;padding:calc(env(safe-area-inset-top,0px) + 24px) 28px calc(env(safe-area-inset-bottom,0px) + 24px)}
+.drawer.open{transform:none;visibility:visible;transition:transform .7s var(--ease)}
+.dscrim{position:fixed;inset:0;z-index:69;background:rgba(30,58,54,.35);opacity:0;pointer-events:none;transition:opacity .5s}
+.dscrim.open{opacity:1;pointer-events:auto}
+.dtop{display:flex;justify-content:space-between;align-items:center;margin-bottom:18px}
+.dtop h2{font-size:1.8rem;margin:0}
+.dclose{all:unset;cursor:pointer;width:42px;height:42px;border-radius:50%;border:1px solid var(--ink);display:grid;place-items:center}
+.dclose:focus-visible{outline:2px solid var(--gold);outline-offset:2px}
+.ditems{flex:1;overflow:auto;list-style:none;margin:0;padding:0;border-top:1px solid var(--line)}
+.ditems li{display:grid;grid-template-columns:72px 1fr auto;gap:14px;padding:16px 0;border-bottom:1px solid var(--line);align-items:center}
+.ditems .th{width:72px;height:88px;border-radius:4px;overflow:hidden;background:var(--surface)}
+.ditems .th img,.ditems .th .ph{width:100%;height:100%;object-fit:cover;min-height:0}
+.ditems .th .ph code{display:none}
+.ditems b{font:500 1rem var(--display);display:block}
+.ditems small{color:var(--soft);display:block;line-height:1.6}
+.ditems .rm{all:unset;cursor:pointer;color:var(--soft);font-size:.85rem;text-decoration:underline}
+.dempty{color:var(--soft);padding:30px 0}
+.dfoot{padding-top:18px;display:grid;gap:12px}
+.dtotal{display:flex;justify-content:space-between;font-weight:700}
+.dfoot small{color:var(--soft)}
+
+@media (prefers-reduced-motion:reduce){
+  *,*::before,*::after{transition-duration:.01ms !important;animation:none !important}
+  .stmt span{opacity:1}
+}
+</style>
+</head>
+<body>
+
+<header class="hdr" id="hdr">
+  <div class="wrap hbar">
+    <a class="logo" href="#top" id="logo"></a>
+    <div class="hright">
+      <a class="btn" href="#contact">احجز استشارة</a>
+      <button class="mbtn" id="mbtn" aria-expanded="false" aria-controls="menu"><span id="mlbl">القائمة</span><i aria-hidden="true"></i></button>
+    </div>
+  </div>
+</header>
+
+<nav class="menu" id="menu" aria-label="القائمة الرئيسية">
+  <div class="wrap menu-in">
+    <ol id="mlinks"></ol>
+    <div class="menu-aside" id="maside"></div>
+  </div>
+</nav>
+
+<main>
+  <section class="hero" id="top" aria-roledescription="عرض المشاريع">
+    <div class="slides" id="slides"></div>
+    <div class="shade"></div>
+    <div class="hui"><div class="wrap">
+      <p class="kicker" id="kicker"></p>
+      <div class="caps" id="caps" aria-live="polite"></div>
+      <div class="hbot">
+        <div class="bars" id="bars"></div>
+        <div class="count" id="count"></div>
+        <div class="harr">
+          <button type="button" id="hprev" aria-label="السابق">→</button>
+          <button type="button" id="hnext" aria-label="التالي">←</button>
+        </div>
+      </div>
+    </div></div>
+  </section>
+
+  <section id="about">
+    <div class="wrap">
+      <p class="stmt" id="stmt"></p>
+      <div class="about">
+        <div class="photo" id="aboutPhoto"></div>
+        <div>
+          <h2 id="aboutTitle" style="font-size:clamp(1.8rem,3.4vw,2.8rem)"></h2>
+          <p class="lede" id="aboutText"></p>
+          <dl id="aboutFacts"></dl>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="services" id="services">
+    <div class="wrap">
+      <h2>ما نقدّمه</h2>
+      <p class="lede">من الفكرة الأولى حتى آخر قطعة في مكانها.</p>
+      <ul class="svc-list" id="svcs"></ul>
+    </div>
+  </section>
+
+  <section class="work" id="work">
+    <div class="work-sticky">
+      <div class="wrap work-head">
+        <h2>مشاريع</h2>
+        <div class="wprog" aria-hidden="true"><i id="wprog"></i></div>
+      </div>
+      <div class="track" id="track"></div>
+    </div>
+  </section>
+
+
+  <section id="collection">
+    <div class="wrap">
+      <div class="coll-top">
+        <div><h2 id="cTitle"></h2><p class="lede" id="cIntro"></p></div>
+        <div class="cfil" id="cFil" role="group" aria-label="تصفية القطع"></div>
+      </div>
+      <div class="pgrid" id="pgrid"></div>
+    </div>
+  </section>
+
+  <section id="process">
+    <div class="wrap">
+      <h2>من أول زيارة إلى المفتاح</h2>
+      <p class="lede">كل مرحلة تنتهي بموافقتك قبل أن ننتقل للتي بعدها.</p>
+      <ol class="proc" id="proc"></ol>
+    </div>
+  </section>
+
+  <div class="est" id="estimate">
+    <div class="wrap">
+      <h2>قدّر مشروعك</h2>
+      <p class="lede">اختر ما يناسبك وشوف نطاق التكلفة التقريبي قبل ما تتواصل معنا.</p>
+      <div class="est-grid">
+        <div>
+          <div class="field"><span class="lbl" id="e-s-l">الخدمة</span><div class="seg" id="eSvc" role="radiogroup" aria-labelledby="e-s-l"></div></div>
+          <div class="field" id="eAreaF"><label for="eArea">المساحة</label>
+            <div class="range"><input type="range" id="eArea" min="40" max="1500" step="10" value="250"><output id="eAreaO" for="eArea"></output></div></div>
+          <div class="field" id="eLvlF"><span class="lbl" id="e-l-l">مستوى التشطيب</span><div class="seg" id="eLvl" role="radiogroup" aria-labelledby="e-l-l"></div></div>
+        </div>
+        <div class="result">
+          <small>التكلفة التقديرية</small>
+          <div class="num"><span id="eOut" aria-live="polite"></span> <small class="cur">ريال</small></div>
+          <p>تقدير مبدئي فقط — السعر النهائي يتحدد بعد زيارة الموقع ومعرفة نطاق العمل.</p>
+          <button class="btn light" type="button" id="eSend">أرسل التقدير واحجز زيارة</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <section class="clients" id="clients">
+    <div class="wrap"><h2>جهات عملنا معها</h2></div>
+    <div class="marq" id="marq"></div>
+  </section>
+
+  <section class="quote" id="quote"><div class="wrap"><blockquote id="qText"></blockquote><cite id="qBy"></cite></div></section>
+
+  <section id="faq" style="padding-top:0">
+    <div class="wrap"><h2>أسئلة تصلنا كثيراً</h2><div class="faqs" id="faqs"></div></div>
+  </section>
+
+  <section class="contact" id="contact">
+    <div class="wrap cgrid">
+      <div>
+        <h2>خلّنا نشوف مساحتك</h2>
+        <p class="lede">أرسل التفاصيل، ونرد عليك خلال يوم عمل لتحديد موعد الزيارة.</p>
+        <dl class="cinfo" id="cinfo"></dl>
+      </div>
+      <form id="form" novalidate>
+        <div class="full"><label id="svc-l">الخدمة المطلوبة</label>
+          <div class="chips" role="radiogroup" aria-labelledby="svc-l">
+            <label><input type="radio" name="service" value="تصميم" checked><span>تصميم</span></label>
+            <label><input type="radio" name="service" value="تصميم وتنفيذ"><span>تصميم وتنفيذ</span></label>
+            <label><input type="radio" name="service" value="استشارة"><span>استشارة</span></label>
+          </div></div>
+        <div><label for="type">نوع المساحة</label><select id="type" name="type"><option>فيلا</option><option>شقة</option><option>دور</option><option>مكتب</option><option>محل تجاري</option><option>أخرى</option></select></div>
+        <div><label for="area">المساحة التقريبية (م²)</label><input id="area" name="area" inputmode="numeric" placeholder="مثال: ٢٥٠"></div>
+        <div><label for="name">الاسم</label><input id="name" name="name" autocomplete="name"></div>
+        <div><label for="city">المدينة</label><input id="city" name="city"></div>
+        <div class="full"><label for="notes">نبذة عن المشروع (اختياري)</label><textarea id="notes" name="notes" placeholder="مثال: تجديد المجلس والصالة بطابع هادئ"></textarea></div>
+        <p class="err full" id="err" role="alert"></p>
+        <div class="full"><button class="btn" type="submit">أرسل الطلب عبر واتساب</button></div>
+      </form>
+    </div>
+  </section>
+</main>
+
+<footer><div class="wrap"><p class="bigname" id="bigname" aria-hidden="true"></p><div class="fbar"><span id="copy"></span><span id="fcity"></span></div></div></footer>
+
+<div class="pv" id="pv" role="dialog" aria-modal="true" aria-labelledby="pvT" hidden>
+  <button class="pv-close" id="pvClose">إغلاق ✕</button>
+  <div class="pv-cover" id="pvCover"></div>
+  <div class="wrap pv-body">
+    <dl class="pv-meta" id="pvMeta"></dl>
+    <p class="pv-text" id="pvText"></p>
+    <div id="pvBA"></div>
+    <div class="gal" id="pvGal"></div>
+    <button class="pv-next" id="pvNext"></button>
+  </div>
+</div>
+
+
+<div class="cv" id="cv" role="dialog" aria-modal="true" aria-labelledby="cvT" hidden>
+  <button class="pv-close" id="cvClose">إغلاق ✕</button>
+  <div class="wrap cv-grid">
+    <div class="cv-gal" id="cvGal"></div>
+    <div class="cv-info">
+      <div class="cv-cat" id="cvCat"></div>
+      <h1 id="cvT"></h1>
+      <p class="cv-price" id="cvPrice"></p>
+      <p class="cv-text" id="cvText"></p>
+      <div id="cvOpts"></div>
+      <div class="opt"><span class="lbl">الكمية</span>
+        <div class="qty"><button type="button" id="qPlus" aria-label="زيادة">+</button><output id="qOut">١</output><button type="button" id="qMinus" aria-label="إنقاص">−</button></div></div>
+      <div class="cv-actions">
+        <button class="btn" type="button" id="cvAdd">أضف لقائمة الطلب</button>
+        <button class="btn outline" type="button" id="cvNow">اطلب الآن عبر واتساب</button>
+      </div>
+      <p class="added" id="cvAdded" role="status"></p>
+      <dl class="cv-specs" id="cvSpecs"></dl>
+      <p class="cv-note">كل قطعة تُصنع يدوياً حسب طلبك. نتواصل معك لتأكيد التفاصيل والسعر النهائي قبل البدء.</p>
+    </div>
+  </div>
+</div>
+
+<button class="bagbtn" id="bagBtn" type="button"><b id="bagN">٠</b>قائمة طلبك</button>
+<div class="dscrim" id="dscrim"></div>
+<aside class="drawer" id="drawer" aria-label="قائمة الطلب" aria-hidden="true">
+  <div class="dtop"><h2>قائمة طلبك</h2><button class="dclose" id="dClose" aria-label="إغلاق">✕</button></div>
+  <ul class="ditems" id="dItems"></ul>
+  <div class="dfoot" id="dFoot">
+    <div class="dtotal"><span>المجموع التقريبي</span><span id="dTotal"></span></div>
+    <small id="dNote"></small>
+    <input id="bName" placeholder="اسمك" autocomplete="name" aria-label="اسمك">
+    <input id="bCity" placeholder="المدينة" aria-label="المدينة">
+    <p class="err" id="bErr" role="alert"></p>
+    <button class="btn" type="button" id="bSend">أرسل الطلب عبر واتساب</button>
+  </div>
+</aside>
+
+<div class="cursor" id="cursor" aria-hidden="true">عرض</div>
+
+<script>
+/* ═════════════ لا حاجة لتعديل ما تحت هذا السطر ═════════════ */
+const $ = id => document.getElementById(id);
+const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const arN = (n, d) => Number(n).toLocaleString("ar-SA", d ? {minimumIntegerDigits:d, useGrouping:false} : {});
+const RM = matchMedia("(prefers-reduced-motion: reduce)").matches;
+const clamp = (v,a=0,b=1) => Math.min(b, Math.max(a, v));
+const TONES = ["#D9D1C3","#C9D0C8","#DCCFC8","#D3D6CC","#E0D6C6"], DTONES = ["#3B4F4B","#4A4740","#3F4A50","#51463F"];
+const pp = (p,f) => `images/projects/${p.folder}/${f}`;
+const ARCH = `<svg viewBox="0 0 400 300" preserveAspectRatio="xMidYMid slice" aria-hidden="true"><path d="M140 300V160a60 60 0 0 1 120 0V300Z" fill="rgba(255,255,255,.18)"/><path d="M160 300V166a40 40 0 0 1 80 0V300" fill="none" stroke="rgba(255,255,255,.3)"/></svg>`;
+window.ph = (src, dark) => `<div class="ph${dark?" dark":""}">${ARCH}<code>${esc(src)}</code></div>`;
+const img = (src, alt, dark) => `<img src="${esc(src)}" alt="${esc(alt)}" loading="lazy" ${dark?'data-dark="1"':""} onerror="this.outerHTML=window.ph(this.getAttribute('src'),this.dataset.dark)">`;
+
+/* identity */
+const nameHTML = `<b>${esc(SITE.name)}</b><small>${esc(SITE.tagline)}</small>`;
+$("logo").innerHTML = SITE.logo ? `<img src="${esc(SITE.logo)}" alt="${esc(SITE.name)}" onerror="this.outerHTML=decodeURIComponent('${encodeURIComponent(nameHTML)}')">` : nameHTML;
+$("kicker").textContent = SITE.heroLine;
+$("bigname").textContent = SITE.name;
+$("copy").textContent = `© ${new Date().getFullYear()} ${SITE.name} ${SITE.tagline}` + (SITE.cr ? ` — سجل تجاري ${SITE.cr}` : "");
+$("fcity").textContent = `${SITE.city}، المملكة العربية السعودية`;
+$("city").value = SITE.city;
+
+/* header behaviour */
+const hdr = $("hdr"); let lastY = 0;
+function onScrollHeader(){
+  const y = scrollY;
+  hdr.classList.toggle("solid", y > innerHeight * .75);
+  if(!hdr.classList.contains("menu")) hdr.classList.toggle("hide", y > lastY && y > innerHeight);
+  lastY = y;
+}
+
+/* menu */
+const MENU = [["#top","الرئيسية"],["#about","عن "+SITE.name],["#services","الخدمات"],["#work","المشاريع"]];
+if(SITE.collection?.enabled) MENU.push(["#collection","القطع"]);
+if(SITE.estimator?.enabled) MENU.push(["#estimate","قدّر مشروعك"]);
+MENU.push(["#contact","تواصل"]);
+$("mlinks").innerHTML = MENU.map(([h,t],i)=>`<li><a href="${h}" style="transition-delay:${(.25+i*.06).toFixed(2)}s">${esc(t)}</a></li>`).join("");
+$("maside").innerHTML = `${esc(SITE.address)}<b dir="ltr" style="text-align:right">${esc(SITE.whatsappDisplay)}</b>${SITE.email?`<b>${esc(SITE.email)}</b>`:""}${SITE.instagram?`<b>@${esc(SITE.instagram)}</b>`:""}`;
+const menu = $("menu"), mbtn = $("mbtn");
+function setMenu(open){
+  menu.classList.toggle("open", open); hdr.classList.toggle("menu", open); hdr.classList.remove("hide");
+  mbtn.setAttribute("aria-expanded", open); $("mlbl").textContent = open ? "إغلاق" : "القائمة";
+  document.body.classList.toggle("lock", open);
+  if(open) setTimeout(()=>menu.querySelector("a").focus({preventScroll:true}), 400);
+}
+mbtn.onclick = () => setMenu(!menu.classList.contains("open"));
+menu.addEventListener("click", e => { if(e.target.closest("a")) setMenu(false); });
+
+/* hero slider */
+let feat = SITE.projects.filter(p=>p.featured); if(!feat.length) feat = SITE.projects.slice(0,4);
+const slidesEl = $("slides"), capsEl = $("caps"), barsEl = $("bars");
+slidesEl.innerHTML = feat.map((p,i)=>`<div class="slide${i?"":" on"}" style="--t:${DTONES[i%DTONES.length]}" aria-hidden="${i?"true":"false"}">${img(pp(p,p.cover), p.title, 1)}</div>`).join("");
+capsEl.innerHTML = feat.map((p,i)=>`<div class="cap${i?"":" on"}">
+  <span class="ln"><span class="h1">${esc(p.title)}</span></span>
+  <span class="ln"><span class="meta">${[p.type,p.area,p.city].filter(Boolean).map(esc).join("، ")}</span></span>
+  <span class="ln"><a class="view" href="#p/${esc(p.folder)}" tabindex="${i?-1:0}">شاهد المشروع</a></span></div>`).join("");
+barsEl.innerHTML = feat.map((p,i)=>`<button type="button" aria-label="الشريحة ${arN(i+1)}: ${esc(p.title)}"><span><i></i></span></button>`).join("");
+const slides=[...slidesEl.children], caps=[...capsEl.children], bars=[...barsEl.children];
+let cur = 0, busy = false;
+function setBars(){
+  bars.forEach((b,i)=>{ b.classList.remove("act"); b.classList.toggle("done", i<cur || (RM && i===cur)); b.setAttribute("aria-current", i===cur); });
+  if(!RM && feat.length>1){ void bars[cur].offsetWidth; bars[cur].classList.add("act"); }
+  $("count").textContent = `${arN(cur+1,2)} / ${arN(feat.length,2)}`;
+}
+function go(n){
+  n = (n + feat.length) % feat.length;
+  if(n===cur || busy) return;
+  const prev = slides[cur], next = slides[n]; busy = true;
+  caps[cur].classList.remove("on"); caps[cur].querySelector("a").tabIndex = -1;
+  cur = n; caps[n].classList.add("on"); caps[n].querySelector("a").tabIndex = 0;
+  slides.forEach((s,i)=>s.setAttribute("aria-hidden", i!==n));
+  setBars();
+  if(RM){ prev.classList.remove("on"); next.classList.add("on"); busy=false; return; }
+  next.classList.add("enter"); void next.offsetWidth; next.classList.add("go");
+  setTimeout(()=>{ prev.classList.remove("on"); next.classList.remove("enter","go"); next.classList.add("on"); busy=false; }, 1550);
+}
+bars.forEach((b,i)=>{ b.onclick = () => go(i); b.querySelector("i").addEventListener("animationend", ()=>go(cur+1)); });
+$("hnext").onclick = () => go(cur+1); $("hprev").onclick = () => go(cur-1);
+const hero = $("top"); let sx = null;
+hero.addEventListener("pointerdown", e => sx = e.clientX);
+hero.addEventListener("pointerup", e => { if(sx===null) return; const dx = e.clientX - sx; sx=null; if(Math.abs(dx)>50) go(cur + (dx>0?1:-1)); });
+hero.addEventListener("focusin", ()=>hero.classList.add("paused")); hero.addEventListener("focusout", ()=>hero.classList.remove("paused"));
+document.addEventListener("visibilitychange", ()=>hero.classList.toggle("paused", document.hidden));
+setBars();
+
+/* statement + about */
+$("stmt").innerHTML = SITE.about.statement.split(/\s+/).map(w=>`<span>${esc(w)}</span> `).join("");
+const words = [...$("stmt").children];
+$("aboutTitle").textContent = `عن ${SITE.name}`;
+$("aboutText").textContent = SITE.about.text;
+$("aboutPhoto").innerHTML = img(SITE.about.photo, SITE.name);
+$("aboutFacts").innerHTML = SITE.about.facts.map(([k,v])=>`<div><dt>${esc(k)}</dt><dd>${esc(v)}</dd></div>`).join("");
+
+/* services */
+$("svcs").innerHTML = SITE.services.map(([t,d])=>`<li><h3>${esc(t)}</h3><p>${esc(d)}</p></li>`).join("");
+
+/* projects horizontal walk */
+const track = $("track"), work = $("work");
+track.innerHTML = SITE.projects.map((p,i)=>`
+  <button class="card${i%3===0?" w":""}${i%3===1?" a":""}" type="button" data-f="${esc(p.folder)}" aria-label="افتح مشروع ${esc(p.title)}">
+    <div class="art" style="--t:${TONES[i%TONES.length]}">${img(pp(p,p.cover), p.title)}</div>
+    <div class="cap2"><strong>${esc(p.title)}</strong><span>${esc(p.type)}</span></div>
+  </button>`).join("") + `<div class="endcard"><p>مساحتك قد تكون المشروع القادم.</p><a class="btn" href="#contact">احجز استشارة</a></div>`;
+track.addEventListener("click", e => { const c = e.target.closest(".card"); if(c) openProject(c.dataset.f, c); });
+const hMQ = matchMedia("(min-width: 821px) and (pointer: fine)");
+let hOn = false;
+function layoutWork(){
+  hOn = hMQ.matches && !RM;
+  work.classList.toggle("static", !hOn);
+  if(!hOn){ work.style.height = ""; track.style.transform = ""; return; }
+  const dist = Math.max(0, track.scrollWidth - innerWidth);
+  work.style.height = (innerHeight + dist) + "px";
+  work.dataset.dist = dist;
+}
+function scrollWork(){
+  if(!hOn) return;
+  const r = work.getBoundingClientRect(), dist = +work.dataset.dist || 0;
+  const p = clamp(-r.top / Math.max(1, r.height - innerHeight));
+  track.style.transform = `translate3d(${(p*dist).toFixed(1)}px,0,0)`;
+  $("wprog").style.transform = `scaleX(${p})`;
+}
+
+/* cursor */
+const cursor = $("cursor");
+if(matchMedia("(pointer:fine)").matches){
+  addEventListener("pointermove", e => { cursor.style.left = e.clientX+"px"; cursor.style.top = e.clientY+"px"; cursor.classList.toggle("on", !!e.target.closest?.(".card")); }, {passive:true});
+}
+
+/* process */
+const proc = $("proc");
+proc.innerHTML = SITE.steps.map(([h,p])=>`<li><h3>${esc(h)}</h3><p>${esc(p)}</p></li>`).join("");
+const steps = [...proc.children];
+function scrollProc(){
+  const r = proc.getBoundingClientRect();
+  const f = RM ? 1 : clamp((innerHeight*.8 - r.top) / (r.height + innerHeight*.3));
+  proc.style.setProperty("--f", f.toFixed(3));
+  steps.forEach((s,i)=>s.classList.toggle("on", f >= i/steps.length));
+}
+
+/* statement scroll */
+function scrollStmt(){
+  if(RM) return;
+  const r = $("stmt").getBoundingClientRect();
+  const p = clamp((innerHeight*.85 - r.top) / (r.height + innerHeight*.35));
+  const n = Math.round(p * words.length);
+  words.forEach((w,i)=>w.classList.toggle("lit", i < n));
+}
+
+/* estimator */
+const E = SITE.estimator;
+if(!E?.enabled){ $("estimate").remove(); }
+else{
+  $("eSvc").innerHTML = E.services.map((s,i)=>`<label><input type="radio" name="esvc" value="${i}" ${i?"":"checked"}><span>${esc(s.name)}</span></label>`).join("");
+  $("eLvl").innerHTML = E.levels.map(([n],i)=>`<label><input type="radio" name="elvl" value="${i}" ${i===1?"checked":""}><span>${esc(n)}</span></label>`).join("");
+  let shown = [0,0], target = [0,0], raf;
+  const r500 = v => Math.round(v/500)*500 || Math.round(v/50)*50;
+  const fmt = ([a,b]) => `${arN(a)} – ${arN(b)}`;
+  function calc(){
+    const s = E.services[+document.querySelector('[name=esvc]:checked').value];
+    const lv = E.levels[+document.querySelector('[name=elvl]:checked').value][1];
+    const a = +$("eArea").value; $("eAreaO").textContent = `${arN(a)} م²`;
+    const flat = s.unit === "flat";
+    $("eAreaF").classList.toggle("hidden", flat); $("eLvlF").classList.toggle("hidden", flat);
+    target = flat ? [s.min, s.max] : [r500(a*s.min*lv), r500(a*s.max*lv)];
+    if(RM){ shown = target; $("eOut").textContent = fmt(shown); return; }
+    cancelAnimationFrame(raf); const from = shown.slice(), t0 = performance.now();
+    const tick = t => { const k = clamp((t-t0)/600), e = 1-Math.pow(1-k,3);
+      shown = from.map((v,i)=>Math.round(v+(target[i]-v)*e)); $("eOut").textContent = fmt(shown.map(v=>Math.round(v/10)*10));
+      if(k<1) raf = requestAnimationFrame(tick); };
+    raf = requestAnimationFrame(tick);
+  }
+  $("estimate").addEventListener("input", calc); calc();
+  $("eSend").onclick = () => {
+    const s = E.services[+document.querySelector('[name=esvc]:checked').value];
+    const lines = ["السلام عليكم، استخدمت حاسبة التكلفة في الموقع وأرغب بحجز زيارة.", "الخدمة: "+s.name];
+    if(s.unit!=="flat") lines.push("المساحة: "+$("eArea").value+" م²", "المستوى: "+E.levels[+document.querySelector('[name=elvl]:checked').value][0]);
+    lines.push("التقدير: "+fmt(target)+" ريال");
+    open("https://wa.me/"+SITE.whatsapp+"?text="+encodeURIComponent(lines.join("\n")), "_blank", "noopener");
+  };
+}
+
+/* clients */
+if(!SITE.clients?.length){ $("clients").remove(); }
+else{
+  const one = SITE.clients.map(c => c.logo ? `<img src="${esc(c.logo)}" alt="${esc(c.name)}" onerror="this.outerHTML='<b>'+this.alt+'</b>'">` : `<b>${esc(c.name)}</b>`).join("");
+  $("marq").innerHTML = one + one + one + one;
+}
+
+/* quote, faq, contact info */
+if(SITE.testimonial?.quote){ $("qText").textContent = `«${SITE.testimonial.quote}»`; $("qBy").textContent = SITE.testimonial.by || ""; } else $("quote").remove();
+$("faqs").innerHTML = SITE.faq.map(([q,a])=>`<details><summary>${esc(q)}</summary><p>${esc(a)}</p></details>`).join("");
+const info = [["المكتب",SITE.address],["واتساب",SITE.whatsappDisplay],["ساعات العمل",SITE.hours]];
+if(SITE.email) info.push(["البريد",SITE.email]); if(SITE.instagram) info.push(["إنستقرام","@"+SITE.instagram]);
+$("cinfo").innerHTML = info.map(([k,v])=>`<div><dt>${esc(k)}</dt><dd${/واتساب|البريد|إنستقرام/.test(k)?' dir="ltr" style="text-align:right"':""}>${esc(v)}</dd></div>`).join("");
+
+/* form */
+$("form").addEventListener("submit", e => {
+  e.preventDefault();
+  const f = e.target, name = f.name.value.trim();
+  if(!name){ $("err").textContent = "اكتب اسمك حتى نعرف بمن نتواصل."; f.name.focus(); return; }
+  $("err").textContent = "";
+  const msg = ["السلام عليكم، أرغب بحجز استشارة.","الاسم: "+name,"الخدمة: "+f.service.value,"نوع المساحة: "+f.type.value,
+    f.area.value.trim()?"المساحة: "+f.area.value.trim()+" م²":"","المدينة: "+(f.city.value.trim()||"—"),
+    f.notes.value.trim()?"التفاصيل: "+f.notes.value.trim():""].filter(Boolean).join("\n");
+  open("https://wa.me/"+SITE.whatsapp+"?text="+encodeURIComponent(msg),"_blank","noopener");
+});
+
+/* project view (shareable link: #p/project-01) */
+const pv = $("pv"); let lastTrigger = null;
+function renderProject(p){
+  const i = SITE.projects.indexOf(p);
+  $("pvCover").innerHTML = img(pp(p,p.cover), p.title, 1) + `<div class="shade"></div><div class="pv-title"><div class="wrap"><h1 id="pvT">${esc(p.title)}</h1></div></div>`;
+  $("pvMeta").innerHTML = [["النوع",p.type],["المساحة",p.area],["المدينة",p.city]].filter(x=>x[1]).map(([k,v])=>`<div><dt>${k}</dt><dd>${esc(v)}</dd></div>`).join("");
+  $("pvText").textContent = p.text || "";
+  $("pvBA").innerHTML = (p.before && p.after) ? `<div class="ba"><div>${img(pp(p,p.before),"قبل")}</div><div class="after">${img(pp(p,p.after),"بعد")}</div><span class="handle"></span><span class="tg tl">قبل</span><span class="tg tr">بعد</span><input type="range" min="0" max="100" value="50" aria-label="مقارنة قبل وبعد"></div>` : "";
+  const ba = $("pvBA").querySelector(".ba"); if(ba) ba.querySelector("input").oninput = e => ba.style.setProperty("--p", e.target.value+"%");
+  $("pvGal").innerHTML = (p.photos||[]).map(f=>`<div style="--t:${TONES[(i+1)%TONES.length]}">${img(pp(p,f), p.title)}</div>`).join("");
+  const nx = SITE.projects[(i+1) % SITE.projects.length];
+  $("pvNext").innerHTML = `<small>المشروع التالي</small><b>${esc(nx.title)}</b>`;
+  $("pvNext").onclick = () => { location.hash = "p/" + nx.folder; };
+}
+function showPV(p){
+  renderProject(p); pv.scrollTop = 0;
+  const wasHidden = pv.hidden; pv.hidden = false; pv.classList.remove("leave");
+  document.body.classList.add("lock"); hdr.classList.add("hide");
+  if(wasHidden && !RM){ pv.classList.add("enter"); void pv.offsetWidth; pv.classList.add("go"); setTimeout(()=>pv.classList.remove("enter","go"), 1250); }
+  $("pvClose").focus({preventScroll:true});
+}
+function hidePV(){
+  if(pv.hidden) return;
+  pv.classList.add("leave");
+  setTimeout(()=>{ pv.hidden = true; pv.classList.remove("leave"); document.body.classList.remove("lock"); hdr.classList.remove("hide"); lastTrigger?.focus({preventScroll:true}); }, RM ? 0 : 450);
+}
+function openProject(folder, trigger){ lastTrigger = trigger || null; location.hash = "p/" + folder; }
+function route(){
+  const m = location.hash.match(/^#p\/(.+)$/);
+  const p = m && SITE.projects.find(x=>x.folder === decodeURIComponent(m[1]));
+  p ? showPV(p) : hidePV();
+  const c = location.hash.match(/^#c\/(.+)$/);
+  const pc = c && window.findPiece?.(decodeURIComponent(c[1]));
+  pc ? window.showCV(pc) : window.hideCV?.();
+}
+addEventListener("hashchange", route);
+$("pvClose").onclick = () => { history.pushState("", document.title, location.pathname + location.search); hidePV(); };
+addEventListener("keydown", e => { if(e.key === "Escape"){ if(!pv.hidden) $("pvClose").click(); else if(window.showCV && !$("cv").hidden) $("cvClose").click(); else if(menu.classList.contains("open")) setMenu(false); } });
+
+
+/* ═══ collection / shop ═══ */
+const C = SITE.collection;
+const cp = (pc,f) => `images/collection/${pc.id}/${f}`;
+const price = v => (v === "" || v == null) ? "السعر حسب الطلب" : `${arN(v)} ريال`;
+let bag = [];
+try { bag = JSON.parse(localStorage.getItem("rd-bag") || "[]") || []; } catch(e){ bag = []; }
+const saveBag = () => { try { localStorage.setItem("rd-bag", JSON.stringify(bag)); } catch(e){} };
+window.findPiece = id => C?.enabled ? C.pieces.find(x=>x.id===id) : null;
+
+if(!C?.enabled){ $("collection").remove(); $("bagBtn").remove(); }
+else{
+  $("cTitle").textContent = C.title; $("cIntro").textContent = C.intro;
+  $("pgrid").innerHTML = C.pieces.map((pc,i)=>`
+    <button class="piece" type="button" data-id="${esc(pc.id)}" data-cat="${esc(pc.category)}" aria-label="${esc(pc.name)}">
+      <div class="pimg" style="--t:${TONES[(i+2)%TONES.length]}"><span class="badge">حسب الطلب</span>${img(cp(pc,pc.cover), pc.name)}${pc.photos?.[0]?`<div class="alt">${img(cp(pc,pc.photos[0]), pc.name)}</div>`:""}</div>
+      <div class="pinfo"><strong>${esc(pc.name)}</strong><span class="pr">${esc(price(pc.price))}</span></div>
+    </button>`).join("");
+  const cats = [...new Set(C.pieces.map(x=>x.category).filter(Boolean))];
+  if(cats.length>1){
+    $("cFil").innerHTML = ["الكل",...cats].map((t,i)=>`<button type="button" data-f="${i?esc(t):"*"}" aria-pressed="${!i}">${esc(t)}</button>`).join("");
+    $("cFil").onclick = e => { const b = e.target.closest("button"); if(!b) return;
+      [...$("cFil").children].forEach(x=>x.setAttribute("aria-pressed", x===b));
+      document.querySelectorAll(".piece").forEach(el=>el.hidden = !(b.dataset.f==="*" || el.dataset.cat===b.dataset.f)); };
+  }
+  $("pgrid").addEventListener("click", e => { const b = e.target.closest(".piece"); if(b){ lastTrigger = b; location.hash = "c/" + b.dataset.id; } });
+
+  /* piece view */
+  const cv = $("cv"); let curPiece = null, qty = 1;
+  const selOpts = () => Object.fromEntries((curPiece.options||[]).map((o,i)=>[o.label, document.querySelector(`[name="op${i}"]:checked`)?.value || ""]));
+  window.showCV = pc => {
+    curPiece = pc; qty = 1; $("qOut").textContent = arN(1); $("cvAdded").textContent = "";
+    $("cvGal").innerHTML = [pc.cover, ...(pc.photos||[])].map(f=>`<div style="--t:${TONES[1]}">${img(cp(pc,f), pc.name)}</div>`).join("");
+    $("cvCat").textContent = pc.category || "";
+    $("cvT").textContent = pc.name;
+    $("cvPrice").textContent = price(pc.price);
+    $("cvText").textContent = pc.text || "";
+    $("cvOpts").innerHTML = (pc.options||[]).map((o,i)=>`<div class="opt"><span class="lbl" id="ol${i}">${esc(o.label)}</span><div class="chips" role="radiogroup" aria-labelledby="ol${i}">${o.values.map((v,k)=>`<label><input type="radio" name="op${i}" value="${esc(v)}" ${k?"":"checked"}><span>${esc(v)}</span></label>`).join("")}</div></div>`).join("");
+    $("cvSpecs").innerHTML = [["الخامات",pc.materials],["الأبعاد",pc.dimensions],["مدة التنفيذ",pc.leadTime]].filter(x=>x[1]).map(([k,v])=>`<div><dt>${k}</dt><dd>${esc(v)}</dd></div>`).join("");
+    const wasHidden = cv.hidden; cv.hidden = false; cv.classList.remove("leave"); cv.scrollTop = 0;
+    document.body.classList.add("lock"); hdr.classList.add("hide"); $("bagBtn").style.visibility = "hidden";
+    if(wasHidden && !RM){ cv.classList.add("enter"); void cv.offsetWidth; cv.classList.add("go"); setTimeout(()=>cv.classList.remove("enter","go"), 1250); }
+    $("cvClose").focus({preventScroll:true});
+  };
+  window.hideCV = () => {
+    if(cv.hidden) return; cv.classList.add("leave");
+    setTimeout(()=>{ cv.hidden = true; cv.classList.remove("leave"); if(pv.hidden) document.body.classList.remove("lock"); hdr.classList.remove("hide"); $("bagBtn").style.visibility = ""; lastTrigger?.focus({preventScroll:true}); }, RM?0:450);
+  };
+  $("cvClose").onclick = () => { history.pushState("", document.title, location.pathname + location.search); window.hideCV(); };
+  $("qPlus").onclick = () => { qty = Math.min(20, qty+1); $("qOut").textContent = arN(qty); };
+  $("qMinus").onclick = () => { qty = Math.max(1, qty-1); $("qOut").textContent = arN(qty); };
+  const optText = o => Object.entries(o).filter(([,v])=>v).map(([k,v])=>`${k}: ${v}`).join("، ");
+  $("cvAdd").onclick = () => {
+    const opts = selOpts(), key = curPiece.id + JSON.stringify(opts);
+    const ex = bag.find(b=>b.key===key); ex ? ex.qty += qty : bag.push({key, id:curPiece.id, opts, qty});
+    saveBag(); renderBag(); $("cvAdded").textContent = "أُضيفت لقائمة طلبك ✓";
+  };
+  $("cvNow").onclick = () => {
+    const o = optText(selOpts());
+    const msg = [`السلام عليكم، أرغب بطلب قطعة من مجموعة ${SITE.name}:`, `${curPiece.name}${o?" — "+o:""} — الكمية: ${qty}`, `السعر المعروض: ${price(curPiece.price)}`].join("\n");
+    open("https://wa.me/"+SITE.whatsapp+"?text="+encodeURIComponent(msg), "_blank", "noopener");
+  };
+
+  /* order list drawer */
+  const drawer = $("drawer"), scrim = $("dscrim");
+  function setDrawer(open){
+    drawer.classList.toggle("open", open); scrim.classList.toggle("open", open);
+    drawer.setAttribute("aria-hidden", !open); document.body.classList.toggle("lock", open || !cv.hidden || !pv.hidden);
+    if(open) $("dClose").focus(); else $("bagBtn").focus({preventScroll:true});
+  }
+  function renderBag(){
+    const n = bag.reduce((s,b)=>s+b.qty,0);
+    $("bagN").textContent = arN(n); $("bagBtn").classList.toggle("show", n>0);
+    if(!bag.length){ $("dItems").innerHTML = `<li class="dempty" style="display:block">القائمة فاضية. تصفّح القطع وأضف ما يعجبك.</li>`; $("dFoot").style.display = "none"; return; }
+    $("dFoot").style.display = "";
+    let total = 0, unpriced = 0;
+    $("dItems").innerHTML = bag.map((b,i)=>{
+      const pc = window.findPiece(b.id); if(!pc) return "";
+      if(pc.price === "" || pc.price == null) unpriced++; else total += pc.price * b.qty;
+      return `<li><div class="th" style="--t:${TONES[0]}">${img(cp(pc,pc.cover), pc.name)}</div>
+        <div><b>${esc(pc.name)}</b><small>${esc(optText(b.opts))}</small><small>الكمية: ${arN(b.qty)} — ${esc(price(pc.price))}</small></div>
+        <button class="rm" type="button" data-i="${i}">إزالة</button></li>`;
+    }).join("");
+    $("dTotal").textContent = total ? `${arN(total)} ريال` : "—";
+    $("dNote").textContent = unpriced ? `+ ${arN(unpriced)} قطعة سعرها حسب الطلب. السعر النهائي يتأكد معك قبل التنفيذ.` : "السعر النهائي يتأكد معك قبل التنفيذ.";
+  }
+  $("dItems").addEventListener("click", e => { const b = e.target.closest(".rm"); if(!b) return; bag.splice(+b.dataset.i,1); saveBag(); renderBag(); });
+  $("bagBtn").onclick = () => setDrawer(true);
+  $("dClose").onclick = () => setDrawer(false);
+  scrim.onclick = () => setDrawer(false);
+  addEventListener("keydown", e => { if(e.key==="Escape" && drawer.classList.contains("open")) setDrawer(false); });
+  $("bCity").value = SITE.city;
+  $("bSend").onclick = () => {
+    const name = $("bName").value.trim();
+    if(!name){ $("bErr").textContent = "اكتب اسمك حتى نعرف بمن نتواصل."; $("bName").focus(); return; }
+    $("bErr").textContent = "";
+    const lines = [`السلام عليكم، أرغب بطلب القطع التالية من مجموعة ${SITE.name}:`];
+    bag.forEach((b,i)=>{ const pc = window.findPiece(b.id); if(pc) lines.push(`${i+1}) ${pc.name}${optText(b.opts)?" — "+optText(b.opts):""} — الكمية: ${b.qty}`); });
+    lines.push("", "الاسم: "+name, "المدينة: "+($("bCity").value.trim()||"—"));
+    open("https://wa.me/"+SITE.whatsapp+"?text="+encodeURIComponent(lines.join("\n")), "_blank", "noopener");
+  };
+  renderBag();
+}
+
+/* scroll loop */
+let ticking = false;
+function onScroll(){ if(ticking) return; ticking = true; requestAnimationFrame(()=>{ onScrollHeader(); scrollWork(); scrollProc(); scrollStmt(); ticking = false; }); }
+addEventListener("scroll", onScroll, {passive:true});
+addEventListener("resize", ()=>{ layoutWork(); onScroll(); });
+hMQ.addEventListener?.("change", ()=>{ layoutWork(); onScroll(); });
+addEventListener("load", ()=>{ layoutWork(); onScroll(); });
+layoutWork(); onScroll(); route();
+</script>
+</body>
+</html>
